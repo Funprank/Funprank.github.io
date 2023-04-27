@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Удаление данных с помощью почты</title>
+</head>
+<body>
+	<header>
+		<h1>Удаление данных с помощью почты</h1>
+	</header>
+	<main>
+		<p>Чтобы удалить свои данные из нашего приложения, заполните форму ниже и отправьте ее на адрес электронной почты, указанный в нашей политике конфиденциальности.</p>
+		<form action="mailto:privacy@example.com" method="post" enctype="text/plain">
+			<label for="name">Имя:</label>
+			<input type="text" id="name" name="name"><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br>
+
+			<label for="message">Сообщение:</label>
+			<textarea id="message" name="message" rows="5" required></textarea><br>
+
+			<input type="submit" value="Отправить">
+		</form>
+		<p>Мы свяжемся с вами в течение 3-5 рабочих дней, чтобы подтвердить удаление ваших данных.</p>
+	</main>
+	<footer>
+		<p>&copy; 2023. Все права защищены.</p>
+	</footer>
+</body>
+</html>
